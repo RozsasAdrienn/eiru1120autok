@@ -19,14 +19,11 @@ nav>a{
     text-decoration: none;
 }
 
-#baltartalom {
+#baltartalom2 {
     grid-area: ba;
 }
 #jobbtartalom{
     grid-area: jo;
-}
-#kozeptartalom{
-    grid-area: ko;
 }
 footer{
     grid-area: fo;
@@ -35,13 +32,13 @@ footer{
 }
 main{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     /*grid-template-rows: 1fr 1fr 1fr 1fr;*/
     grid-template-areas: 
-    'he he he'
-    'na na na'
-    'ba ko jo'
-    'fo fo fo';
+    'he he '
+    'na na '
+    'ba jo '
+    'fo fo ';
 }
 
 .arckep{
@@ -82,4 +79,15 @@ h1{
     font-size: 80%;
     font-weight: normal;
 
+}
+/*
+ol>li{
+    list-style-position: inside;
+}*/
+
+ol{
+    margin-left: 25px;
+}
+ol>li{
+    text-align: justify;
 }
