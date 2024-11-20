@@ -91,3 +91,7 @@ ol{
 ol>li{
     text-align: justify;
 }
+
+table>#cimsor{
+    border-bottom: black 5px solid;
+}
